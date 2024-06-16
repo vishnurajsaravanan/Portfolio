@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Vishnuraj Saravanan",
+  title: "Hi all, I'm Vishnu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Python developer 🐍 specialized in advanced machine learning, AI, and data analytics, adept at crafting innovative solutions to complex business problems"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/vishnurajsaravanan",
+  linkedin: "https://www.linkedin.com/in/vishnuraj-saravanan/",
+  gmail: "vishnurajs.personal@gmail.com",
+  gitlab: "https://gitlab.com/vishnurajsaravanan",
+  facebook: "https://www.facebook.com/vishnurajsaravanan",
+  medium: "https://medium.com/@vishnurajsaravanan",
+  stackoverflow: "https://stackoverflow.com/users/18034146/vishnuraj-saravanan",
+  instagram: "https://www.instagram.com/_sarav_iku.zo",
+  twitter: "https://twitter.com/VishnurajSarav2",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -65,55 +67,35 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fa fa-cloud"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -126,23 +108,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "SNS College of Engineering",
+      logo: require("./assets/images/snslogo.png"),
+      subHeader: "Bachelor of Technology in Artificial Intelligence and Data Science",
+      duration: "Nov 2020 - May 2024",
+      desc: "SNS Kalvi Nagar, Sathy Main Road, Kurumbapalayam, PO, Coimbatore, Tamil Nadu 641107",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Lead - Google Developer Students Club (2023-2024)",
+        "SNS Merit Scholarship Student",
+        "Event Organiser of Googleathon 2.0 - 24 Hours Generative AI Hackathon (2023)",
+        "Research Paper (TIJER2404178)- Revolutionizing the User Experience through AI powered Search and Retrieval System",
+        "Research Paper (GRJ/3220) - Survey on Efficienct and working principle of Prolog using Design Thinking",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Shri Nehru Vidyalaya Matriculation Higher Secondary School",
+      logo: require("./assets/images/snvlogo.png"),
+      subHeader: "Higher Secondary School",
+      duration: "Jun 2018 - May 2020",
+      desc: "26, Tibrewal Nagar, Robertson Road, R.S. Puram, Coimbatore – 641 002, Tamil Nadu, India.",
+      descBullets: [
+        "School Topper - 10th Standard (2018)", 
+        "School Topper in Mathematics - 12th Standard (2020)",
+        "School Topper in Physics - 12th Standard (2020)",
+        "Proud NSS Volunteer",
+      ]
     }
   ]
 };
@@ -174,11 +164,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Science Intern",
+      company: "Gravity AI",
+      companylogo: require("./assets/images/gravityailogo.jpeg"),
+      date: "Feb 2024 – Mar 2024",
+      desc: "KCT Tech Park, Coimbatore, Tamil Nadu 641035, IN",
+      descBullets: [
+        "Focused on acquiring and cleaning data from US colleges using web scraping techniques and Python libraries like Pandas and NumPy.",
+        "Also specialized in visualizing insights using Matplotlib, Seaborn, Plotly, and Tableau, contributing to impactful data-driven analyses and solutions."
+      ]
+    },
+    {
+      role: "Data Analytics Consulting",
+      company: "KPMG AU",
+      companylogo: require("./assets/images/kpmglogo.png"),
+      date: "Jun 2023 – Jul 2023",
+      desc: "Work from home",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      role: "Python Developer",
+      company: "VDiSTiE Technolgies",
+      companylogo: require("./assets/images/vdistielogo.jpeg"),
+      date: "Jul 2022 – Aug 2022",
+      desc: "Work from home",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -186,17 +198,14 @@ const workExperiences = {
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      company: "GoZen Technologies",
+      companylogo: require("./assets/images/gozenlogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Nava India Rd, near Radisson Blu, Coimbatore, Tamil Nadu 641004",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     }
   ]
 };
@@ -212,29 +221,51 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "My projects showcase my skills and experience in the field of AI, Data Science, and Python Programming.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/swiftsearchlogo.jpg"),
+      projectName: "Swift Search",
+      projectDesc: "Revolutionizing user experience with AI-powered search and retrieval system tailored for effortless exploration of product snapshots",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://thozhartensor.github.io/Swift-Search/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/fakelinkdetection.webp"),
+      projectName: "Fake Link Detection",
+      projectDesc: "Detecting fake, malicious web links using machine learning and phishtank database",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/vishnurajsaravanan/FakeLink-Detection"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rainpredictionlogo.jpeg"),
+      projectName: "Real Time Rainfall Prediction",
+      projectDesc: "Using Random forest regression predicting rainfall for the districts in Theni",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/vishnurajsaravanan/FakeLink-Detection"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/croppriceprediction.jpeg"),
+      projectName: "Crop Price Prediction",
+      projectDesc: "A web app predicting crop yield based on Random Forest ML model trained on 20+ years of Maharashtra data with live weather integration, achieving 86% accuracy.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/vishnurajsaravanan/Crop-Price-Prediction"
         }
       ]
     }
@@ -343,7 +374,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +387,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,14 +403,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9003837297",
+  email_address: "vishnurajs.personal@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "VishnurajSarav2", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
