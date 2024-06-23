@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Python developer 🐍 specialized in advanced machine learning, AI, and data analytics, adept at crafting innovative solutions to complex business problems"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1e3Afh8K02KYbrlPrSsVutdmiSDLBHaTH/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -91,13 +91,37 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa fa-cloud"
     },
     {
+      skillName: "Microsoft Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
+      skillName: "HTML",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "Canva",
+      fontAwesomeClassname: "fas fa-paint-brush"
+    },
+    {
+      skillName: "VSCode",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "OpenAI",
+      fontAwesomeClassname: "fas fa-robot"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -181,8 +205,8 @@ const workExperiences = {
       date: "Jun 2023 – Jul 2023",
       desc: "Work from home",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Advised client on customer targeting by assessing data quality, analyzing high-value customer demographics, and attributes.",
+        "Created interactive dashboards with clear and insightful visualizations to effectively communicate the findings and recommendations to the client."      
       ]
     },
     {
@@ -192,8 +216,7 @@ const workExperiences = {
       date: "Jul 2022 – Aug 2022",
       desc: "Work from home",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a software prototype that successfully demonstrated the potential of a new concept regarding Contact management using Python  and Google API."
       ]
     },
     {
@@ -203,8 +226,7 @@ const workExperiences = {
       date: "May 2017 – May 2018",
       desc: "Nava India Rd, near Radisson Blu, Coimbatore, Tamil Nadu 641004",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Learnt about the fundamental of web development, worked in MERN stack and been in the deployment phase of 'AI-based Email Marketing' project"
       ]
     }
   ]
@@ -237,9 +259,20 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/taskAutomation.png"),
+      projectName: "Monthly Task Automation - SNS MTA",
+      projectDesc: "Using flask, developed a web application that facilitates communication and progress tracking between mentors and mentees, enhancing their learning and growth.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/vishnurajsaravanan/SNS-MTA"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/fakelinkdetection.webp"),
       projectName: "Fake Link Detection",
-      projectDesc: "Detecting fake, malicious web links using machine learning and phishtank database",
+      projectDesc: "Detecting fake, malicious web links using machine learning and phishtank database safeguarding user searching experience.",
       footerLink: [
         {
           name: "Visit Website",
@@ -266,6 +299,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://github.com/vishnurajsaravanan/Crop-Price-Prediction"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ceoDashboard.png"),
+      projectName: "CEO Dashboard",
+      projectDesc: "Using flask, developed a web application that facilitates dashboard for CEO, Managers and Directors to track the progress of the company and also the efficiency of the employees.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/vishnurajsaravanan/CEO-Dashboard"
         }
       ]
     }
